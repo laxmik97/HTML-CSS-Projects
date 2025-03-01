@@ -1,0 +1,80 @@
+body {
+    margin :0;
+    padding : 0;
+}
+#banner{
+    width : 100%;
+    height : 360px;
+    object-fit: cover;
+}
+#navbar{
+    padding : 10px 0 10px 0;
+    background-color: darkgreen;
+}
+.bannerimg{
+    width : 100%;
+    padding: 10px;
+   }
+.introtext{
+    text-align: center;
+}
+.mainblock{
+    display : flex;
+    max-width : 800px;
+    margin : auto;
+    padding : 8px;
+}
+.description{
+    width : 50%;
+    padding : 6px;
+    text-align : justify;
+}
+.desc-img{
+    width : 50%;
+   
+}
+.circle-img{
+    width : 100%;
+    object-fit : cover;
+}
+.jobs{
+    text-align: center;
+}
+.jd{
+    max-width : 800px;
+    margin : 0 auto;
+    padding : 0 8px;
+}
+.apply{
+    float : right;
+}
+.footer {
+    background-color: gray;
+    padding : 8px;
+    margin-top : 8px;
+}
+#footer-links {
+    list-style-type: none;
+    text-align: center;
+
+}
+#footer-links li{
+    display : inline;
+    margin : 0 16px;
+}
+#jobs-table {
+    width : 100%;
+    border : 1px solid black;
+    border-collapse: collapse;
+}
+#jobs-header-row th{
+    border : 1px solid black;
+    background-color: cornsilk;
+    text-align: left;
+}
+#jobs-data-row td {
+    border : 1px solid black;
+}
+#jobs-table tr:nth-child(odd) {
+   background-color: bisque;
+}
